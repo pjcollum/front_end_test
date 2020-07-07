@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+
+body{
+    font-family:"Montserrat";
+    background-color: lightcyan;
+    
+}
+#title{
+    background-image: url(/images/Homepage-banner_01.png) ;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+ .navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+ .dark-blue-text {
+    color: white;
+}
+
+
+
+p#headline{
+    text-align: center;
+}
+
+#headline{
+    font-size: 24px;
+}
+
+h1{
+    font-family: "Montserrat";
+  
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+    position: relative;
+    margin:0;
+    
+}
+#logo-nav i{
+    margin:10px;  
+}
+#logo-nav img{
+   
+}
+#logo-nav p{
+    margin-left:90px;
+}
+#logo-nav{
+    display:flex;
+  
+}
+.btn{
+border-radius:20px;
+}
+.navbar{
+    padding: 0 0 4.5rem;;
+}
+.navbar-brand{
+    font-family: "ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    list-style: none;
+    color:white;
+}
+nav .navbar-nav li a{
+    color: white !important;
+    outline:0;
+    }
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    color:white;
+}
+
+#logo{
+    width:100px;
+}
+
+
+
+#contact-info{
+    width: 300px;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align:center;
+    background-color: rgb(141, 141, 204);
+    color: #fff;
+}
+
+h2{
+    font-weight:bold;
+    font-size:3rem;
+    line-height:1.5;
+}
+.testimonial-image{
+    width:100%;
+    
+}
+.carouselExampleIndicators{
+    color:blue;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-inner{
+    text-align:center;
+}
+
+
+
+.photo-size{
+   width:19%;
+   margin:7px;
+   padding:5px;
+} 
+
+footer{
+    background-color: lightcyan;
+    padding-top:75px;
+    margin:50px;
+    
+}
+#footer-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly
+    
+}
