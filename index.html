@@ -14,55 +14,49 @@
 
     <title>Care +</title>
 </head>
-<body>
 
+<body>
+<!--Header Section-->
     <section id="title">
         <div class="container-fluid">
 
         <!--Navbar-->
-<nav class="navbar navbar-light white lighten-4">
+        <nav class="navbar navbar-light white lighten-4">
+            <div id="logo-nav">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-search"></i>
+                <p class="text-center" id="headline">Care for all the family from the No1 brand in UK pharmacy*</p>
+            </div>
+        
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                class="fas fa-bars fa-1x"></i></span></button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#care-family">Care Family</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photos">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer-content">Contact</a>
+                </li>
+            </ul>
+            
+            </div>        
+        </nav>
+  
 
-    <!-- Navbar brand -->
-    
-        <div id="logo-nav">
-            <img id="logo" src="images/logo.png" alt="logo">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fas fa-search"></i>
-            <p class="text-center" id="headline">Care for all the family from the No1 brand in UK pharmacy*</p>
-        </div>
-    
-  
-    <!-- Collapse button -->
-    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-          class="fas fa-bars fa-1x"></i></span></button>
-  
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-  
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#photos">Photos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#footer-content">Contact</a>
-        </li>
-      </ul>
-      <!-- Links -->
-  
-    </div>
-    <!-- Collapsible content -->
-  
-  </nav>
-  <!--/.Navbar-->
-
-         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-keyboard="true" data-interval="9000">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-keyboard="true" data-interval="9000">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -95,17 +89,66 @@
               <span class="sr-only">Next</span>
             </a>
         </div>
-        
-
     </section>
 
+    <!--Care Family-->
+    <section id="care-family">
+        <div class="container-fluid">
+            <div class="d-flex" id="care-family-top">
+
+                <div class="image-div">
+                <img id="" src="images/Homepage_03-2.png" alt="little book of care">
+                <div class="text-block">
+                    <h4>Your Complete Guide</h4>
+                    <h4>The Little Book of Care</h4>
+                  </div>
+                </div>
+
+                <div class="image-div">
+                    <img id="" src="images/Homepage_03-02-2.png" alt="stress free lifestyle">
+                    <div class="text-block">
+                    <h4>7 Tips to Stress</h4>
+                    <h4>Free Lifestyle</h4>
+                  </div>
+                </div>
+                
+            </div>
+            <button type="button" class="btn btn-light">Read more blogs, insights and help guides</button>
+        
+        <div class="d-flex" id="care-family-bottom">
+            <div id="be-part-care-family">
+                <h3>Be Part of the Care Family</h3>
+                <p class="text-sm-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae dicta excepturi sed id similique ad beatae vel qui sequi ea ipsa est commodi dolorem eligendi mollitia modi, voluptas nemo!</p>
+            </div>
+
+            <div class="circle">
+                Win a £250 Gift Card
+            </div>
+
+            <form id="form-signup">
+                 <div class="form-group col-lg-4">
+                        <input type="text" class="form-control mb-2 mr-sm-2" id="fName" placeholder="First Name">
+                </div>
+                <div class="form-group col-lg-4">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                </div>
+                <div class="form-group col-lg-4">
+                  <input type="text" class="form-control" id="exampleInputInterest" aria-describedby="interested" placeholder="I am interested in">
+                </div>
+                <div class="form-check col-lg-4">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Opt in tick box with supporting text to comply with GDPR rules</label>
+                  <button type="submit" class="btn btn-dark">Join</button>
+                </div>
+            </form>
+        </div>
+        </div>  
+    </section>
   
 
-
+<!--Testimonials-->
     <section id="testimonials">
-
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-keyboard="true" data-interval="1500">
-          
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -131,16 +174,16 @@
         </div>
     </section>
 
-
+<!--Photos-->
     <section id="photos">
-        <div id="top-row">
+        <div class="flex" >
             <img class="photo-size" src="images/Homepage_03-03.png" alt="logo">
             <img class="photo-size" src="images/Homepage_03-04.png" alt="logo">
             <img class="photo-size" src="images/Homepage_03-05.png" alt="logo">
             <img class="photo-size" src="images/Homepage_03-06.png" alt="logo">
             <img class="photo-size" src="images/Homepage_03-07.png" alt="logo">
         </div>  
-        <div id="bottom-row">
+        <div class="flex" >
             <img class="photo-size" src="images/Homepage_03-08.png" alt="logo">
             <img class="photo-size" src="images/Homepage_03-1.png" alt="logo">
             <img class="photo-size" src="images/Homepage_03-02-1.png" alt="logo">
@@ -150,7 +193,7 @@
     </section>
 
     
-
+<!--Footer-->
     <footer>
         <div id="footer-content">
             <div id="contact-info">
@@ -160,8 +203,8 @@
                 <p>*For verification please write to Thornton & Ross Ltd, HD7 5QH</p>
             </div>
             <div>
-                <h6>Our Ranges</h6>
-                <div>
+                <h6><strong>Our Ranges</strong></h6>
+                <div class="d-flex">
                     <ul>
                         <li>Cough</li>
                         <li>Cold</li>
@@ -178,7 +221,7 @@
                
             </div>
             <div>
-                <h6>A little care from use</h6>
+                <h6><strong>A little care from use</strong></h6>
                 <ul>
                     <li>Self Treatment Videos</li>
                     <li>Infant & Baby</li>
@@ -188,7 +231,7 @@
                 </ul>
             </div>
             <div>
-                <h6>Stay in touch</h6>
+                <h6><strong>Stay in touch</strong></h6>
                 <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                 <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
                 <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
@@ -202,9 +245,6 @@
          <div>
              <p>&#169 2019 Thornton & Ross Ltd. Care+ and the lozenge device are trademarks of Thornton & Ross Ltd.</p>
          </div>
-
-
     </footer>
-  
 </body>
 </html>

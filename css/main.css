@@ -3,6 +3,7 @@
 body{
     font-family:"Montserrat";
     background-color: lightcyan;
+    box-sizing: border-box;
     
 }
 #title{
@@ -12,54 +13,7 @@ body{
     height: 100vh;
 }
 
-.fa-1x {
-    font-size: 1.5rem;
-}
- .navbar-toggler.toggler-example {
-    cursor: pointer;
-}
- .dark-blue-text {
-    color: white;
-}
-
-
-
-p#headline{
-    text-align: center;
-}
-
-#headline{
-    font-size: 24px;
-}
-
-h1{
-    font-family: "Montserrat";
-  
-    font-size:3.5rem;
-    line-height: 1.5;
-}
-.container-fluid{
-    padding: 3% 15%;
-    position: relative;
-    margin:0;
-    
-}
-#logo-nav i{
-    margin:10px;  
-}
-#logo-nav img{
-   
-}
-#logo-nav p{
-    margin-left:90px;
-}
-#logo-nav{
-    display:flex;
-  
-}
-.btn{
-border-radius:20px;
-}
+/*Nav Bar*/
 .navbar{
     padding: 0 0 4.5rem;;
 }
@@ -68,7 +22,6 @@ border-radius:20px;
     font-size: 2.5rem;
     font-weight: bold;
 }
-
 .nav-item{
     padding: 0 18px;
     list-style: none;
@@ -83,17 +36,123 @@ nav .navbar-nav li a{
     font-family: "Montserrat";
     color:white;
 }
+.fa-1x {
+    font-size: 1.5rem;
+}
+ .navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+ .dark-blue-text {
+    color: white;
+}
+i:hover {
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.1);
+    cursor: pointer;
+}
+h1{
+    font-family: "Montserrat";
+  
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+    position: relative;
+    margin:0;
+    text-align: center
+}
+#logo-nav i{
+    margin:10px;  
+}
+
+#logo-nav p{
+    margin-left:90px;
+}
+#logo-nav{
+    display:flex;
+}
+p#headline{
+    text-align: center;
+}
+
+#headline{
+    font-size: 24px;
+}
+.btn{
+border-radius:20px;
+margin:20px;
+}
 
 #logo{
     width:100px;
 }
 
-
-
-#contact-info{
-    width: 300px;
+/*Care Family*/
+#care-family{
+    background-image: url(/images/footer_bg_02.png) ;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+#care-family-top{
+    margin-right:5px;
+    border:2px solid black;
+}
+#care-family-bottom{
+    margin-right:0px;
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:0;
 }
 
+#care-family-bottom div, #care-family-bottom form{
+    flex:3;
+}
+.image-div {
+    position: relative;
+}
+#form-signup{
+    width: 50vw;
+    margin-left:50px;
+   
+}
+#form-signup input{
+    width:150px;
+    
+    text-align:center;
+}
+.form-check-input{
+    text-align:left;
+}
+
+  
+.text-block {
+    position: absolute;
+    bottom: 170px;
+    right: 200px;
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#be-part-care-family{
+    text-align:left;
+    width: 400px;
+    margin-right:0px;
+}
+.circle {
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 250px;
+    text-align: center;
+    background: darkblue
+  }
+
+/*Testimonials*/
 #testimonials{
     padding: 7% 15%;
     text-align:center;
@@ -108,7 +167,6 @@ h2{
 }
 .testimonial-image{
     width:100%;
-    
 }
 .carouselExampleIndicators{
     color:blue;
@@ -122,23 +180,27 @@ h2{
     text-align:center;
 }
 
-
-
+/*Photos*/
 .photo-size{
    width:19%;
    margin:7px;
    padding:5px;
 } 
 
+/*Footer*/
+
 footer{
     background-color: lightcyan;
     padding-top:75px;
     margin:50px;
+    color:grey;
     
 }
 #footer-content{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly
-    
+}
+#contact-info{
+    width: 300px;
 }
