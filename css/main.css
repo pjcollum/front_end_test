@@ -2,7 +2,7 @@
 
 body{
     font-family:"Montserrat";
-    background-color: lightcyan;
+    
     box-sizing: border-box;
     
 }
@@ -181,6 +181,9 @@ h2{
 }
 
 /*Photos*/
+#photos{
+    background-color: lightcyan;
+}
 .photo-size{
    width:19%;
    margin:7px;
@@ -192,8 +195,9 @@ h2{
 footer{
     background-color: lightcyan;
     padding-top:75px;
-    margin:50px;
+    margin:0px;
     color:grey;
+    background-color: lightcyan;
     
 }
 #footer-content{
